@@ -83,7 +83,7 @@ h6 {
 .back-to-top {
   position: fixed;
   display: none;
-  background: #87CEFA;
+  background: #003153;
   color: #fff;
   width: 40px;
   height: 40px;
@@ -126,7 +126,7 @@ h6 {
   display: block;
   width: 60px;
   height: 5px;
-  background: #87CEFA;
+  background: #003153;
   bottom: 0;
   left: calc(50% - 25px);
 }
@@ -195,7 +195,7 @@ h6 {
 }
 
 #header #logo h1 span {
-  color: #51A2A6;
+  color: #003153;
 }
 
 #header #logo h1 a,
@@ -383,7 +383,7 @@ h6 {
 }
 
 .nav-menu ul li:hover > a {
-  background: #51A2A6;
+  background: #003153;
   color: #fff;
 }
 
@@ -409,7 +409,7 @@ h6 {
 }
 
 #mobile-nav-toggle i {
-  color: #87CEFA;
+  color: #003153;
 }
 
 /* Mobile Nav Styling */
@@ -420,7 +420,7 @@ h6 {
   padding-top: 18px;
   bottom: 0;
   z-index: 998;
-  background: #87CEFA;
+  background: #003153;
 
   left: -260px;
   width: 260px;
@@ -468,11 +468,11 @@ h6 {
 }
 
 #mobile-nav ul .menu-has-children i.fa-chevron-up {
-  color: #87CEFA;
+  color: #003153;
 }
 
 #mobile-nav ul .menu-item-active {
-  color:#87CEFA;
+  color:#003153;
 }
 
 #mobile-body-overly {
@@ -610,11 +610,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   border: 2px solid transparent;
   top: -15%;
   left: -15%;
-  background: #87CEFA;
+  background: #003153;
 }
 
 #intro-2 .play-btn:hover::after {
-  border-left: 15px solid #87CEFA;
+  border-left: 15px solid #003153;
   -webkit-transform: scale(20); 
   transform: scale(20);
 }
@@ -711,7 +711,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #intro h1 span {
-  color:#87CEFA;
+  color:#003153;
 }
 
 #intro p {
@@ -723,7 +723,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #intro .play-btn {
   width: 94px;
   height: 94px;
-  background: radial-gradient(#87CEFA 50%, rgba(101, 111, 150, 0.15) 52%);
+  background: radial-gradient(#003153 50%, rgba(101, 111, 150, 0.15) 52%);
   border-radius: 50%;
   display: block;
   position: relative;
@@ -766,11 +766,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   border: 2px solid transparent;
   top: -15%;
   left: -15%;
-  background: #87CEFA;
+  background: #003153;
 }
 
 #intro .play-btn:hover::after {
-  border-left: 15px solid #87CEFA;
+  border-left: 15px solid #003153;
   -webkit-transform: scale(20); 
   transform: scale(20);
 }
@@ -808,11 +808,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #fff;
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
-  border: 2px solid #87CEFA;
+  border: 2px solid #003153;
 }
 
 #intro-2 .about-btn:hover {
-  background: #87CEFA;
+  background: #003153;
   color: #fff;
 }
 
@@ -854,10 +854,18 @@ body.mobile-nav-active #mobile-nav-toggle {
 /*--------------------------------------------------------------
 # About Section
 --------------------------------------------------------------*/
+#break {
+  background: url("../img/2560x1440-charleston-green-solid-color-background.jpg");
+  background-size:cover;
+  overflow: hidden;
+  position: relative;
+  color: #fff;
+  padding: 60px 0 40px 0;
+}
 
 #about {
-  background: url("../img/imagem_fundo_sobre.jpg");
-  background-size: cover;
+  background: url("../img/eacomp_bg.png");
+  background-size:cover;
   overflow: hidden;
   position: relative;
   color: #fff;
