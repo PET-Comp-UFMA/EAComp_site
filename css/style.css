@@ -855,8 +855,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 # About Section
 --------------------------------------------------------------*/
 #break {
-  background: url("../img/2560x1440-charleston-green-solid-color-background.jpg");
-  background-size:cover;
   overflow: hidden;
   position: relative;
   color: #fff;
@@ -1043,7 +1041,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #schedule .nav-tabs a.active {
-  background-color: #87CEFA;
+  background-color: #003153;
   color: #fff;
 }
 
@@ -1073,6 +1071,21 @@ body.mobile-nav-active #mobile-nav-toggle {
 #schedule .schedule-item time {
   padding-bottom: 5px;
   display: inline-block;
+}
+
+#schedule .schedule-item .speaker-container {
+  width: 160px;
+  height: 80px;
+  background: url("../img/imagem-bg.jpg");
+  background-size: cover;
+  overflow: hidden;
+  float: left;
+  margin: 0 10px 10px 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  justify-content: center;
 }
 
 #schedule .schedule-item .speaker {
