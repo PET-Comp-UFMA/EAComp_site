@@ -1,2 +1,2 @@
-# AcalouradaVirtual
-Repositório do site da acalourada realizada pelo PETComp
+# Site EAComp
+Repositório do site do evento EAComp realizada pelo PETComp
