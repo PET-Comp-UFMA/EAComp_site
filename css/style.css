@@ -156,13 +156,13 @@ h6 {
 # Banner Section
 --------------------------------------------------------------*/
 
-#banner {
+/*#banner {
   background-size: cover;
   overflow: hidden;
   position: relative;
   background-color:#fff;
   padding: 60px 0 40px 0;
-}
+}*/
 
 
 /*--------------------------------------------------------------
