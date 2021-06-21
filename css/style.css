@@ -452,7 +452,7 @@ h6 {
 }
 
 #mobile-nav ul li a {
-  color: black;
+  color: white;
   font-size: 17px;
   overflow: hidden;
   padding: 10px 22px 10px 15px;
@@ -461,6 +461,10 @@ h6 {
   width: 100%;
   display: block;
   outline: none;
+}
+
+#mobile-nav .dropdown-menu .dropdown-item {
+  color: black;
 }
 
 #mobile-nav ul li a:hover {
