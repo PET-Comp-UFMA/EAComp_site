@@ -1,5 +1,13 @@
 jQuery(document).ready(function( $ ) {
 
+  /*$("a[href*='" + location.pathname + "']").click(function(){
+    $(this).addClass("menu-active");
+  });
+  $("a[href*='" + location.pathname + "']").click( function() {
+    $(this).addClass("menu-active");
+  });*/
+  
+
   // Back to top button
   $(window).scroll(function() {
     if ($(this).scrollTop() > 100) {

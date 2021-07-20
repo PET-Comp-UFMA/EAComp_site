@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>VIII EAComp - Mostra Competitiva</title>
+    <title>Competição de Robótica - VII ERCEMAPI - VII EAComp</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="Template, Evento, petcomp, " name="keywords">
     <meta content="PETCOMP-UFMA" name="author">
@@ -12,10 +12,11 @@
     <meta name="google-site-verification" content="Vq1j2NBJRrVdJnbfpVGku9UCJFm-OD1rTIO7XZ7i7Rs" />
 
     <!-- Favicons -->
-    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon-v1/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-v1/cropped-eacomp-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-v1/cropped-eacomp-32x32.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon-v1/ercemapi_icone.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-v1/ercemapi_icone_32x32.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-v1/ercemapi_icone_16x16.ico">
     <link rel="manifest" href="/favicon-v1/site.webmanifest">
+
 
 
     <!-- Google Fonts -->
@@ -37,12 +38,18 @@
 </head>
 
 <body>
-
-    <section id="banner">
-        <div class="container">
-            <img src="img/Banner-eacomp.png" class="img-fluid" alt="">
+    <div class="wrapper">
+        <div class="banner">
+            <div>   
+                <a href="http://www.sbc.org.br/"><img src="img/logo-sbc.png" alt="" class="img-fluid" id="img-esq"></a>
+            </div>
+            <div>
+                <a href="index.html"><img src="img/banner_centro.jpg" alt="" class="img-fluid" id="img-centro"></a>
+            </div>
+            <div>
+                <a href="https://pet-comp-ufma.github.io/ERCEMAPI_site/ercemapi2019/index.html"><img src="img/ercemapi-logo.png" class="img-fluid" id="img-dir"></a>
+            </div>
         </div>
-    </section>
     <!--==========================
         Header
     ============================-->
@@ -50,34 +57,39 @@
         <div class="container">
             <nav id="nav-menu-container">
                 <ul class="nav-menu">
-                    <li class="menu-active"><a href="index.html">Home</a></li>
-                    <li class="dropdown">
+                    <li><a href="index.html">Página Inicial</a></li>
+                    <li class="dropdown menu-active">
                       <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Chamada</a>
                         <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                            <a class="dropdown-item" href="trabalhos.html">Chamada de Trabalhos</a> 
+                            <a class="dropdown-item" href="artigos.html">Artigos</a>
                             <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="competitiva.html">Mostra Competitiva</a>  
+                            <a class="dropdown-item" href="minicursos_chamada.html">Minicursos</a>
                             <div class="dropdown-divider"></div>
                             <a class="dropdown-item" href="maratona.html">Maratona</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="competitiva.html">Competição</a>
                         </div>
                         
                      </a>
                     </li>
-                    <li><a href="programacao.html">Programação</a></li>
+                    <li class="nav-item"><a href="programacao.html">Programação</a></li>
                     <li><a href="inscricoes.html">Inscrições</a></li>
                     <li class="dropdown">
-                      <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Informações</a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="local.html">Local</a> 
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="comissao.html">Comissão Organizadora</a>     
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="documentos-oficiais.html">Documentos Oficiais</a>   
-                        </div>
-                     </a>
-                    </li>
-                
+                        <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Informações</a>
+                          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                              <div class="dropdown-divider"></div>
+                              <a class="dropdown-item" href="comissao.html">Comissão Organizadora</a>
+                              <div class="dropdown-divider"></div>
+                              <a class="dropdown-item" href="documentos-oficiais.html">Documentos Oficiais</a>
+                              <div class="dropdown-divider"></div>
+                              <a class="dropdown-item" href="a_ercemapi.html">A ERCEMAPI</a>
+                              <div class="dropdown-divider"></div>
+                              <a class="dropdown-item" href="o_eacomp.html">O EACOMP</a>
+                              <div class="dropdown-divider"></div>
+                              <a class="dropdown-item" href="registros.html">Registros</a>
+                          </div>
+                       </a>
+                      </li>
                     <li class="dropdown">
                       <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pós-evento</a>   
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -85,24 +97,17 @@
                             <a class="dropdown-item" href="anais.html">Anais</a> 
                             <div class="dropdown-divider"></div>
                             <a class="dropdown-item" href="certificados.html">Certificados</a>     
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="deliberacoes.html">Deliberações</a>              
                         </div>
                      </a>
                     </li>
-                    <!--
                     <li class="dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Versões Anteriores</a>
-                          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                              <a class="dropdown-item" href="#">2020</a> 
-                              <div class="dropdown-divider"></div>
-                              <a class="dropdown-item" href="#">2019</a>     
-                              <div class="dropdown-divider"></div>
-                              <a class="dropdown-item" href="#">2018</a>  
-                          </div>
-                       </a>
-                      </li> 
-                      -->
+                      <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Edições Anteriores</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">2017</a>
+                            <div class="dropdown-divider"></div>
+                        </div>
+                     </a>
+                    </li> 
                 </ul>
             </nav>
             <!-- #nav-menu-container -->
@@ -115,36 +120,50 @@
         <section id="info">
             <div class="container">
                 <div class="section-header">
-                    <h2>Minicursos</h2>
+                    <h2>COMPETIÇÃO DE ROBÓTICA</h2>
                 </div>
-                <p align="center">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sapien turpis, viverra in mauris id, aliquet bibendum nibh. Vestibulum fermentum eros quis lectus eleifend elementum vel ac massa. Donec mollis ligula id elit volutpat, ut ultricies urna iaculis. Aenean sit amet ligula eget dui maximus placerat at ut lectus. Integer urna est, tincidunt bibendum neque ac, posuere varius metus. Aenean non nibh neque. Vivamus lorem ligula, fermentum sed nunc eget, interdum scelerisque mi. Sed at arcu interdum, fermentum metus at, fermentum velit. In hac habitasse platea dictumst. Maecenas pretium, ante quis scelerisque rhoncus, elit lacus efficitur justo, non suscipit ligula sapien in sem. Fusce auctor nisl ex, quis ultrices neque tempor rutrum. Vestibulum sit amet aliquam ex, at porttitor lorem. Duis tellus ex, convallis in lacinia id, mattis non nunc.
-                </p>
-
-                <h3>Chamada de competição - texto</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sapien turpis, viverra in mauris id, aliquet bibendum nibh. Vestibulum fermentum eros quis lectus eleifend elementum vel ac massa. Donec mollis ligula id elit volutpat, ut ultricies urna iaculis. Aenean sit amet ligula eget dui maximus placerat at ut lectus.</p>
-
-                <h3>Inscrição</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sapien turpis, viverra in mauris id, aliquet bibendum nibh. Vestibulum fermentum eros quis lectus eleifend elementum vel ac massa. Donec mollis ligula id elit volutpat, ut ultricies urna iaculis. Aenean sit amet ligula eget dui maximus placerat at ut lectus.</p>
-
-                <h3>Trilhas de submissão</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sapien turpis, viverra in mauris id, aliquet bibendum nibh. Vestibulum fermentum eros quis lectus eleifend elementum vel ac massa. Donec mollis ligula id elit volutpat, ut ultricies urna iaculis. Aenean sit amet ligula eget dui maximus placerat at ut lectus.</p>
                 
-                <h3>Regras de estruturação</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sapien turpis, viverra in mauris id, aliquet bibendum nibh. Vestibulum fermentum eros quis lectus eleifend elementum vel ac massa. Donec mollis ligula id elit volutpat, ut ultricies urna iaculis. Aenean sit amet ligula eget dui maximus placerat at ut lectus.</p>
+                <p>A competição de robôs móveis e autônomos constitui a etapa final do evento de robótica, sendo que esse começará com uma oficina de introdução à programação do robô móvel com rodas Moway. Ela é organizada em 2 modalidades, a saber, execução de caminho fechado e execução de caminho aberto (fuga de labirinto), para alunos do ensino médio e superior, respectivamente, as quais têm objetivos e critérios de decisão definidos a seguir.</p>
 
-                <h3>Modelo de trabalho</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sapien turpis, viverra in mauris id, aliquet bibendum nibh. Vestibulum fermentum eros quis lectus eleifend elementum vel ac massa. Donec mollis ligula id elit volutpat, ut ultricies urna iaculis. Aenean sit amet ligula eget dui maximus placerat at ut lectus.</p>
+                <h3>1. Plataforma Robótica Moway</h3>
+                <p style="text-align: center;">A competição usará a plataforma robótica Moway, ilustrada na Figura 1.</p>
+                <div class="centering">
+                    <img src="./img/competicao_de_robotica/robo-768x283.png" class="img-fluid" alt="">
+                </div>
+                <p class="legenda"><b>Figura 1</b> - Robô Moway</p>
 
-                <h3>Critérios de avaliação</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sapien turpis, viverra in mauris id, aliquet bibendum nibh. Vestibulum fermentum eros quis lectus eleifend elementum vel ac massa. Donec mollis ligula id elit volutpat, ut ultricies urna iaculis. Aenean sit amet ligula eget dui maximus placerat at ut lectus.</p>
+                <p>O robô possui um PIC de 4 Mhz, sendo que as entradas e saídas do robô podem ser digitais e analógicas, e comunicação I2C. O robô possui como sensor: 2 sensores que podem ser usados para seguir linha; 4 detectores de obstáculo, sensor de luz, sensor de temperatura, microfone, acelerômetro. O robô possui como atuador: 2 servo-motores para as rodas; 4 LEDs para indicação (2 na frente e e atrás) e saída de áudio (speaker). Adicionalmente, o robô tem um módulo de expansão onde novos dispositivos podem ser conectados: por exemplo módulo de rádio frequência, câmera etc. A bateria do robô dura em média duas horas. Destaca-se que o Moway pode ser programado em 5 maneiras diferentes: i) Fluxograma; ii) Scratch; iii) Python; iv) C; v) Assembly. A Figura 2 ilustra um exemplo da programação via Fluxograma.</p>
+                <div class="centering">
+                    <img src="./img/competicao_de_robotica/fluxograma-768x408.png" class="img-fluid" alt="">
+                </div>
+                <p class="legenda"><b>Figura 2</b> - Exemplo da Programação Via Fluxograma (Fonte: Manual)</p>
 
-                <h3>Informações sobre a apresentação</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sapien turpis, viverra in mauris id, aliquet bibendum nibh. Vestibulum fermentum eros quis lectus eleifend elementum vel ac massa. Donec mollis ligula id elit volutpat, ut ultricies urna iaculis. Aenean sit amet ligula eget dui maximus placerat at ut lectus.</p>
 
-                <h3>Informações sobre os certificados</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sapien turpis, viverra in mauris id, aliquet bibendum nibh. Vestibulum fermentum eros quis lectus eleifend elementum vel ac massa. Donec mollis ligula id elit volutpat, ut ultricies urna iaculis. Aenean sit amet ligula eget dui maximus placerat at ut lectus.</p>
+                <h3>2. Competição – Detalhamento das Regras</h3>
+                <p>A competição será divida em duas modalidades:</p>
+                <ol>
+                    <li><p>A – execução de caminho fechado;</p></li>
+                    <li><p>B – execução de caminho aberto (fuga de labirinto).</p></li>
+                </ol>
 
+                <p>A competição será em dupla, sendo que a organização do evento possui 20 robôs Moway. 2 robôs Moway serão utilizado pelo instrutores do curso, assim sendo para cada nível 18 robôs Moway serão utilizados totalizando 36 vagas (18 duplas) para cada
+                    modalidade. As competições referentes a cada modalidade, serão em turnos diferentes, visando maximar o uso dos robôs Moway. Visando facilitar a programação do robô, para a modalidade-A a programação do robô nessa categoria será via Fluxograma enquanto que para a modalidade-B o mesmo poderá ser programado em Python ou C.</p>
+                <p>Na modalidade-A, destinada a equipes de estudantes de ensino médio, o robô terá como tarefa seguir uma linha preta (Figura 3A), executando, portanto um caminho fechado. A execução do percurso será cronometrada por membros da equipe de organização, e o tempo atribuído à respectiva equipe corresponderá à média aritmética simples das medições de tempo de percurso obtidas por cada membro. Antes do início da tomada de tempo, cada equipe disporá de 1 minuto para realizar eventual calibração de sensores. Em caso de fuga do robô móvel do trajeto demarcado, a referida equipe poderá reposicionar o veículo na posição de início, e terá mais uma tentativa antes de ser eliminada da competição.</p>    
+                <p>O critério de decisão pela equipe vencedora será o menor tempo de percurso. Em caso de empates, as equipes empatadas e somente elas permanecem na competição; elas repetirão o experimento em tantas baterias quantas forem necessárias até que se chegue ao desempate.</p>
+                <p>Na modalidade-B, por sua vez destinada a equipes de estudantes de ensino superior, o robô terá que sair de um labirinto (Figura 3B), executando, portanto, um caminho aberto, e, adicionalmente, informar a distância mínima necessária para sair do labirinto, ou seja, caso pegue uma rota errada e volte a um ponto essa distância não deve ser contabilizada.</p>
+                <div class="centering">
+                    <img src="./img/competicao_de_robotica/Exemplos-pista-768x316.png" class="img-fluid" alt="">
+                </div>
+                <p class="legenda"><b>Figura 3</b> - Exemplo das pistas. Pista da esquerda (A) para a modalidade-A (ensino
+                    médio) e pista da direita (B) para a modalidade-B (ensino superior)</p>
+
+                <p>Para a tentativa de execução do percurso, cada equipe disporá de 5 minutos, tempo este que será cronometrada por um membro da equipe de organização. Antes do início da tomada de tempo, cada equipe disporá de 1 minuto para realizar eventual calibração de sensores. Em caso de fuga do robô móvel do trajeto demarcado, a referida equipe poderá reposicionar o veículo na posição de início, e terá mais uma tentativa antes de ser eliminada da competição.</p>
+                <p>Uma vez que, nesta modalidade, há dois objetivos a serem alcançados, as equipes receberão pontuações parciais nas seguintes situações:</p>
+                <ol type="a">
+                    <li>se concluírem o percurso dentro do prazo estabelecido;</li>
+                    <li>se informarem corretamente a distância mínima para fuga do labirinto com precisão de duas casas decimais.</li>
+                </ol>
+                <p>Em caso de empates, as equipes serão submetidas a uma nova bateria de navegação, mas dessa vez será cronometrado o tempo de percurso para fuga do labirinto, e o menor tempo definirá a equipe vencedora, desde que informe a distância mínima corretamente. Quanto à medição do tempo e critérios sucessivos de desempate, neste caso, optar-se-á pelo procedimento descrito anteriormente para a modalidade-A.</p>
             </div>
         </section>
 
@@ -154,12 +173,12 @@
         Footer
     ============================-->
 
-    <footer id="footer">
+    <footer id="footer" class="fixar-rodape">
         <div class="footer-top">
             <div class="footer-info" id="contatos">
                 <h4 >Contatos</h4>
                 <div id ="email">
-                    <strong>E-mail:</strong> petcomputacao.ufma@gmail.com
+                    <strong>E-mail:</strong> ercemapi.eacomp.2019@gmail.com
                 </div>
                 <div class="social-links">
                     <a href="https://twitter.com/petcompufma" class="twitter"><i class="fa fa-twitter"></i></a>
@@ -169,10 +188,10 @@
         </div>
 
         <div class="copyright">
-            <strong>Evento - XXXX XXXX</strong>
+            <strong>VII EAComp e VII ERCEMAPI - 2019</strong>
         </div>
     </footer>
-  
+</div>
   <!-- #footer -->
 
     
