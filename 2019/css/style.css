@@ -84,7 +84,7 @@ h6 {
 .back-to-top {
   position: fixed;
   display: none;
-  background: #3777e6;
+  background: #003153;
   color: #fff;
   width: 40px;
   height: 40px;
@@ -127,7 +127,7 @@ h6 {
   display: block;
   width: 60px;
   height: 5px;
-  background: #3777e6;
+  background: #003153;
   bottom: 0;
   left: calc(50% - 25px);
 }
@@ -325,7 +325,7 @@ h6 {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #3777e6;
+  background-color: #003153;
   visibility: hidden;
   transition: all 0.3s ease-in-out 0s;
 }
@@ -410,7 +410,7 @@ h6 {
 }
 
 #mobile-nav-toggle i {
-  color: #3777e6;
+  color: #003153;
 }
 
 /* Mobile Nav Styling */
@@ -813,7 +813,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #fff;
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
-  border: 2px solid #3777e6;
+  border: 2px solid #003153;
 }
 
 #intro-2 .about-btn:hover {
