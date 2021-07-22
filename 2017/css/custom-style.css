@@ -211,3 +211,10 @@ footer.fixar-rodape{
 .tabela-anais thead {
     background-color: #87ceeb;
 }
+
+.imgs-local {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
