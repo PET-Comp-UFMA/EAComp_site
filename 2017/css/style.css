@@ -83,7 +83,7 @@ h6 {
 .back-to-top {
   position: fixed;
   display: none;
-  background: #003153;
+  background: #f55050;
   color: #fff;
   width: 40px;
   height: 40px;
@@ -126,7 +126,7 @@ h6 {
   display: block;
   width: 60px;
   height: 5px;
-  background: #003153;
+  background: #f55050;
   bottom: 0;
   left: calc(50% - 25px);
 }
@@ -337,7 +337,7 @@ h6 {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color:#003153;
+  background-color:#f55050;
   visibility: hidden;
   transition: all 0.3s ease-in-out 0s;
 }
@@ -351,10 +351,10 @@ h6 {
 
 .nav-menu li.buy-tickets a {
   color:  #fcf8ec;
-  background:#3C4858;
+  background:#f55050;
   padding: 7px 22px;
   border-radius: 50px;
-  border: 2px solid #3C4858;
+  border: 2px solid #f55050;
   transition: all ease-in-out 0.3s;
   font-weight: 800;
   margin-left: 8px;
@@ -365,7 +365,7 @@ h6 {
 
 .nav-menu li.buy-tickets a:hover {
   background: none;
-  color: #3C4858;
+  color: #6d7988;
 }
 
 .nav-menu li.buy-tickets:hover a:before,
@@ -422,7 +422,7 @@ h6 {
 }
 
 #mobile-nav-toggle i {
-  color: #003153;
+  color: #f55050;
 }
 
 /* Mobile Nav Styling */
@@ -825,7 +825,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #fff;
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
-  border: 2px solid #003153;
+  border: 2px solid #f55050;
 }
 
 #intro-2 .about-btn:hover {
@@ -873,7 +873,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------------------------------------*/
 
 #about {
-  background: url("../img/eacomp_bg.png");
+  background: url("../img/eacomp-bg3.png");
   background-size:cover;
   overflow: hidden;
   position: relative;
@@ -1591,7 +1591,7 @@ td, th {
 --------------------------------------------------------------*/
 
 #footer {
-  background: #050C38;
+  background: #921f1a;
   padding: 0 0 10px 0;
   color: #eee;
   font-size: 14px;
