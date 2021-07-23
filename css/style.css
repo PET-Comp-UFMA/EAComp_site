@@ -27,14 +27,14 @@ body#body{
 }
 
 a {
-  color: #3C4858;
+  color: #3c5845;
   transition: 0.5s;
 }
 
 a:hover,
 a:active,
 a:focus {
-  color: #51A2A6;
+  color: #51a65f;
   outline: none;
   text-decoration: none;
 }
