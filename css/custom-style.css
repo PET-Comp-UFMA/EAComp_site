@@ -107,6 +107,7 @@ width: 68%;
     margin-left: auto;
     margin-right: auto;
     align-items: center;
+    background-color: #FFF;
 }
 
 .banner div a {
@@ -124,8 +125,9 @@ width: 68%;
     align-items: center;
     align-content: center;
     justify-content: center;
-    width: 545px;
-    margin: auto;
+    width: 50%;
+    padding: 0px;
+    margin: 0px;
 }
 
 /*.banner-centro {
@@ -137,7 +139,7 @@ width: 68%;
 }*/
 
 #img-esq {
-    width: 16%;
+    width: 25%;
 }
 
 #img-centro {
@@ -145,7 +147,7 @@ width: 68%;
 }
 
 #img-dir {
-    width: 19.75%;
+    width: 25%;
 }
 
 /*@media (min-width: 576px) {

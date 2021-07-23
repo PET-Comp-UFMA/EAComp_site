@@ -155,19 +155,6 @@ h6 {
 }
 
 /*--------------------------------------------------------------
-# Banner Section
---------------------------------------------------------------*/
-
-/*#banner {
-  background-size: cover;
-  overflow: hidden;
-  position: relative;
-  background-color:#fff;
-  padding: 60px 0 40px 0;
-}*/
-
-
-/*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
 
@@ -875,7 +862,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------------------------------------*/
 
 #about {
-  background: url("../img/eacomp_bg.png");
+  background: url("../img/banner.png");
   background-size:cover;
   overflow: hidden;
   position: relative;
@@ -1595,14 +1582,14 @@ td, th {
 --------------------------------------------------------------*/
 
 #footer {
-  background: #005c1f;
+  background: #164927;
   padding: 0 0 10px 0;
   color: #eee;
   font-size: 14px;
 }
 
 #footer .footer-top {
-  background: #164927 ;
+  background: #352e41 ;
   padding: 5px 15px 5px 15px;
 }
 
