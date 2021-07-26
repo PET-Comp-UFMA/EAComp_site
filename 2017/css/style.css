@@ -1087,7 +1087,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 #schedule .schedule-item .speaker-container {
   width: 160px;
   height: 80px;
-  background: url("../img/imagem-bg.jpg");
   background-size: cover;
   overflow: hidden;
   float: left;
