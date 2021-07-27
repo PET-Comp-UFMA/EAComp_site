@@ -1148,15 +1148,14 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin: 40px;
 }
 .faq-whatsapp{
-  background: #51A2A6;
+  background: #00B900;
   color:white;
 }
 
 .faq-whatsapp:hover{
-  text-decoration: none ;
-  background: none;
-  color: #51A2A6;
-  border-color: #51A2A6;
+  background: white;
+  color: #00B900;
+  border-color: #00B900;
 
 }
 
@@ -1268,7 +1267,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #faq #faq-list a.collapse {
-  color: #51A2A6;
+  color: #00B900;
 }
 
 #faq #faq-list a.collapsed {
@@ -1321,7 +1320,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   border: 0;
   padding: 9px 25px;
   cursor: pointer;
-  background: #51A2A6;
+  background: #00B900;
   color: #fff;
   transition: all 0.3s ease;
   outline: none;
@@ -1330,7 +1329,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #subscribe button:hover {
-  background: #51A2A6;
+  background: #00B900;
 }
 
 /*--------------------------------------------------------------
