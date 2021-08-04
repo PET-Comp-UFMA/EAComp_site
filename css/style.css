@@ -83,7 +83,7 @@ h6 {
 .back-to-top {
   position: fixed;
   display: none;
-  background: #F37020;
+  background: #ff7d2c;
   color: #fff;
   width: 40px;
   height: 40px;
@@ -106,7 +106,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background:#c9530b;
+  background:#d4570a;
   color:  #fff; 
 }
 
@@ -126,7 +126,7 @@ h6 {
   display: block;
   width: 60px;
   height: 5px;
-  background: #F37020;
+  background: #ff7d2c;
   bottom: 0;
   left: calc(50% - 25px);
 }
@@ -149,7 +149,7 @@ h6 {
 }
 
 .section-with-bg {
-  background-color: #f6f7fd;
+  background-color: #fdfeff;
 }
 
 /*--------------------------------------------------------------
@@ -176,7 +176,7 @@ h6 {
 
 #header.header-scrolled,
 #header.header-fixed {
-  background: white;
+  background: #fdfeff;
   height: 70px;
   padding: 15px 0;
   transition: all 0.5s;
@@ -324,7 +324,7 @@ h6 {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color:#F37020;
+  background-color:#ff7d2c;
   visibility: hidden;
   transition: all 0.3s ease-in-out 0s;
 }
@@ -409,7 +409,7 @@ h6 {
 }
 
 #mobile-nav-toggle i {
-  color: #F37020;
+  color: #ff7d2c;
 }
 
 /* Mobile Nav Styling */
@@ -1114,21 +1114,21 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #schedule .schedule-item h4 span {
   font-style: italic;
-  color: #198e2d;
+  color: #b45113;
   font-weight: normal;
   font-size: 16px;
 }
 
 #schedule .schedule-item p {
   font-style: italic;
-  color: #15791a;
+  color: #d66117;
   margin-bottom: 0;
 }
 
 .schedule-subtitle{
   font-size: 25px;
   font-weight: 500;
-  color:#51A2A6;
+  color:#ff7d2c;
 }
 
 /*--------------------------------------------------------------
@@ -1474,7 +1474,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .contact-info a:hover {
-  color: #51A2A6;
+  color: #F37020;
 }
 
 #contact .contact-address,
@@ -1536,7 +1536,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .form button[type="submit"]:hover {
-  background: #51A2A6;
+  background: #F37020;
 }
 
 /*--------------------------------------------------------------
@@ -1586,7 +1586,7 @@ td, th {
 }
 
 #footer .footer-top {
-  background: #352e41 ;
+  background: #0b1226;
   padding: 5px 15px 5px 15px;
 }
 
@@ -1638,7 +1638,7 @@ td, th {
 }
 
 #footer .footer-top .social-links a:hover {
-  background:#008b35;
+  background:#F37020;
   color:  #fff;
 }
 
