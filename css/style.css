@@ -1757,7 +1757,9 @@ td, th {
   background-color: #fdfeff;
 }
 
-
+.col-md-3 {
+  max-width: 20%;
+}
 
 #img-esq {
   width: 25%;
@@ -1774,6 +1776,12 @@ td, th {
 /*--------------------------------------------------------------
 # Responsive Media Queries
 --------------------------------------------------------------*/
+
+@media (max-width: 500px) {
+  .col-md-3 {
+    max-width: 100%;
+  }
+}
 
 @media (min-width: 767px) {
   #subscribe input {

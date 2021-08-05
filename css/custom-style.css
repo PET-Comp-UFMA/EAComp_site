@@ -88,8 +88,6 @@ width: 68%;
 }
 
 
-
-
 /* Seção de orientações*/
 
 #link-tutorial{
@@ -172,10 +170,6 @@ footer.fixar-rodape{
     flex-direction: row;
     flex-wrap: nowrap;
     align-items: center;
-}
-
-.col-md-3 {
-    max-width: 20%;
 }
 
 .center-content {
