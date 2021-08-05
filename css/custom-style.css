@@ -98,18 +98,6 @@ width: 68%;
 
 /*Banner*/
 
-.banner {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-content: center;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    align-items: center;
-    background-color: #fdfeff;
-}
-
 .banner div a {
     display: flex;
     align-items: center;
@@ -137,18 +125,6 @@ width: 68%;
     font-size: 1rem;
     text-align: justify;
 }*/
-
-#img-esq {
-    width: 25%;
-}
-
-#img-centro {
-    width: 100%;
-}
-
-#img-dir {
-    width: 25%;
-}
 
 /*@media (min-width: 576px) {
     .banner div a {

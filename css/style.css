@@ -1741,6 +1741,36 @@ td, th {
   color: #ddd;
 }
 
+.banner-responsivo {
+  display: none;
+}
+
+.banner {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  background-color: #fdfeff;
+}
+
+
+
+#img-esq {
+  width: 25%;
+}
+
+#img-centro {
+  width: 100%;
+}
+
+#img-dir {
+  width: 25%;
+}
+
 /*--------------------------------------------------------------
 # Responsive Media Queries
 --------------------------------------------------------------*/
@@ -1796,6 +1826,52 @@ td, th {
 }
 
 @media (max-width: 991px) {
+  #img-esq {
+      width: 60%;
+      padding: 5px 0px 5px 0px;
+  }
+
+  #img-dir {
+      width: 30%;
+      padding: 5px 0px 5px 0px;
+  }
+
+  .banner-responsivo div a {
+      display: flex;
+      align-items: center;
+      align-content: center;
+      justify-content: center;
+      width: 100%;
+      margin: auto;
+  }
+
+  .banner-responsivo div {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      align-content: center;
+      justify-content: center;
+      width: 50%;
+      padding: 0px;
+      margin: 0px;
+  }
+
+  .banner {
+    display: none;
+  }
+
+  .banner-responsivo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    background-color: #fdfeff;
+  }
+
   #header {
 
     background: white;
