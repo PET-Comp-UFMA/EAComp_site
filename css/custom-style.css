@@ -165,13 +165,6 @@ footer.fixar-rodape{
     margin-top: auto;
 }
 
-.row {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-items: center;
-}
-
 .center-content {
     display: flex;
     flex-direction: row;
