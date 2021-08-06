@@ -1148,6 +1148,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 .faq-whatsapp{
   background: #F37020;
   color:white;
+  transition: .5s;
 }
 
 .faq-whatsapp:hover{
