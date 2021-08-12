@@ -164,11 +164,3 @@ footer.fixar-rodape{
     height: 180px;
     margin-top: auto;
 }
-
-.center-content {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-}
