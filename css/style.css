@@ -20,6 +20,7 @@ body {
   background: #f6f7fd;
   color: #2f3138;
   font-family: "Open Sans", sans-serif;
+  overflow-x: hidden;
 }
 
 body#body{
@@ -1759,7 +1760,11 @@ td, th {
 }
 
 .col-md-3 {
-  max-width: 20%;
+  max-width: 200px;
+}
+
+.col-md-8 h4{
+  max-width: 90%;;
 }
 
 #img-esq {
