@@ -84,7 +84,7 @@ h6 {
 .back-to-top {
   position: fixed;
   display: none;
-  background: #ff8539;
+  background: #e07533;
   color: #fff;
   width: 40px;
   height: 40px;
@@ -1219,8 +1219,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #supporters .supporter-logo:hover img {
-  -webkit-transform: scale(1.2);
-  transform: scale(1.2);
+  -webkit-transform: scale(1.07);
+  transform: scale(1.07);
 }
 
 #supporters img {
@@ -1581,7 +1581,7 @@ td, th {
 --------------------------------------------------------------*/
 
 #footer {
-  background: #d57c44;
+  background: #242021;
   padding: 0 0 10px 0;
   color: #eee;
   font-size: 14px;
@@ -1764,7 +1764,7 @@ td, th {
 }
 
 .col-md-8 h4{
-  max-width: 90%;;
+  max-width: 100%;;
 }
 
 #img-esq {
@@ -1792,6 +1792,10 @@ td, th {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+}
+
+.img-fluid {
+  max-width: 140px;
 }
 
 /*--------------------------------------------------------------
@@ -1884,6 +1888,13 @@ td, th {
   .row {
     display: flex;
     flex-direction: column;
+    align-items: center;
+  }
+
+  .supporters-wrap {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
   }
 
