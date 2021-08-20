@@ -242,3 +242,7 @@ footer.fixar-rodape{
 .centering{
     text-align: center;
 }
+
+.tabela-spacing{
+    padding-bottom: 16vh;
+}
