@@ -52,7 +52,7 @@ h4,
 h5,
 h6 {
   font-family: "Raleway", sans-serif;
-  font-weight: 400;
+  font-weight: 600;
   margin: 10px 0 10px 0;
   padding: 0;
   color: #1B100A;
@@ -128,7 +128,7 @@ h6 {
   width: 60px;
   height: 5px;
   background: #003153;
-  bottom: 0;
+  bottom: 16px;
   left: calc(50% - 25px);
 }
 
@@ -1171,9 +1171,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .card{
-  margin: 12px;
-  border-radius: 8px;
-  padding: 0px;
+  background-color: transparent;
+  border: none;
 }
 .card .card-header .faq-title{
  margin: 15px 100px 15px 100px;
@@ -1454,6 +1453,16 @@ body.mobile-nav-active #mobile-nav-toggle {
   background: no-repeat center;
   background-size: cover;;
   border: #51A2A6 solid 1px;
+}
+.active::after{
+  content: '';
+  position: absolute;
+  display: block;
+  width: 80px;
+  height: 5px;
+  background: #003153;
+  bottom: 0;
+  left: calc(50% - 39px);
 }
 
 /*--------------------------------------------------------------
@@ -1784,7 +1793,7 @@ vertical-align:top
   width: 60px;
   height: 5px;
   background: #fff;
-  bottom: 0;
+  bottom: 0px;
   left: calc(50% - 29px);
 }
 
