@@ -1534,6 +1534,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   display: block;
 }
 
+.show h3{
+  
+}
+
 #contact .form .validation {
   color: red;
   display: none;
@@ -1686,6 +1690,12 @@ vertical-align:top
 
 .dias-layout {
   display: flex;
+}
+
+@media only screen and (min-width: 993px){
+  .container {
+      width: 100%;
+  }
 }
 
 /*--------------------------------------------------------------
