@@ -908,7 +908,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #aviso {
   overflow: hidden;
   position: relative;
-  padding: 60px 0 40px 0;
+  padding: 10px 0 10px 0;
 }
 
 .aviso{
@@ -1200,7 +1200,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------------------------------------*/
 
 #supporters {
-  padding: 60px 0;
+  padding: 10px 0;
 }
 
 #supporters .supporters-wrap {
