@@ -2081,6 +2081,10 @@ td, th {
     background-color: #fdfeff;
   }
 
+  .img-centro {
+    margin: 5px 0px 5px 0px;
+  }
+
   body {
     background: #fff;
   }
