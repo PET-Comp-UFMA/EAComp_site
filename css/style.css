@@ -1747,6 +1747,10 @@ td, th {
   display: none;
 }
 
+.banner-responsivo2 {
+  display: none;
+}
+
 .banner {
   display: flex;
   flex-direction: row;
@@ -1801,10 +1805,6 @@ td, th {
 /*--------------------------------------------------------------
 # Responsive Media Queries
 --------------------------------------------------------------*/
-
-@media (max-width: 767px) {
-
-}
 
 @media (max-width: 500px) {
   .col-md-3 {
@@ -1889,6 +1889,10 @@ td, th {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+
+  dl, ol, ul {
+    padding: 0px;
   }
 
   .supporters-wrap {
@@ -2021,16 +2025,32 @@ td, th {
   }
 }
 
+@media (max-width: 737px) {
+  .row > strong {
+    width: 600px;
+  }
+}
+
 @media (max-width: 634px) {
   .maps1 iframe {
     width: 280px;
     height: 230px;
+  }
+
+  .row > strong {
+    width: 500px;
   }
 }
 
 @media (max-width: 574px) {
   #venue .venue-info h3 {
     font-size: 24px;
+  }
+}
+
+@media (max-width: 500px) {
+  .row > strong {
+    width: 350px;
   }
 }
 
@@ -2044,6 +2064,32 @@ td, th {
   #subscribe button {
     margin-top: 10px;
   }
+
+  .banner-responsivo {
+    display: none;
+  }
+
+  .banner-responsivo2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    background-color: #fdfeff;
+  }
+
+  body {
+    background: #fff;
+  }
+}
+
+@media (max-width: 352px) {
+  .row > strong {
+    width: 260px;
+  }
 }
 
 @media (max-width: 312px) {
@@ -2053,5 +2099,21 @@ td, th {
 
   .section-header h2{
     font-size: 30px;
+  }
+
+  .row > strong {
+    width: 240px;
+  }
+}
+
+@media (max-width: 270px) {
+  .row > p {
+    width: 210px;
+  }
+}
+
+@media (max-width: 250px) {
+  .copyright {
+    line-height: 1.2;
   }
 }
