@@ -1948,13 +1948,13 @@ td, th {
     background-color: #fdfeff;
   }
 
-  #header {
-
-    background: white;
+  #header{
+    display: none !important;
+    /*background: white;
     height: 70px;
     padding: 15px 0;
     transition: all 0.5s;
-    box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.5);*/
   }
 
   #nav-menu-container {
@@ -2074,15 +2074,12 @@ td, th {
     flex-direction: row;
     justify-content: center;
     align-content: center;
-    width: 70%;
+    width: 65%;
     margin-left: auto;
     margin-right: auto;
     align-items: center;
     background-color: #fdfeff;
-  }
-
-  .img-centro {
-    margin: 5px 0px 5px 0px;
+    padding: 5px 0px 5px 0px;
   }
 
   body {
