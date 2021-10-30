@@ -1946,15 +1946,11 @@ td, th {
     margin-right: auto;
     align-items: center;
     background-color: #fdfeff;
+    box-shadow: 4px -5px 32px 2px rgba(0,0,0,0.28);
   }
 
   #header{
     display: none !important;
-    /*background: white;
-    height: 70px;
-    padding: 15px 0;
-    transition: all 0.5s;
-    box-shadow: 5px 5px 5px rgba(0,0,0,0.5);*/
   }
 
   #nav-menu-container {
@@ -2074,16 +2070,24 @@ td, th {
     flex-direction: row;
     justify-content: center;
     align-content: center;
-    width: 65%;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
     align-items: center;
     background-color: #fdfeff;
-    padding: 5px 0px 5px 0px;
   }
 
-  body {
-    background: #fff;
+  #img-centro {
+    width: 65%;
+  }
+
+  .banner-responsivo2 > div > a{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 4px -5px 32px 2px rgba(0,0,0,0.28);
+    padding: 5px 12px 5px 12px;
   }
 }
 
