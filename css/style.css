@@ -2106,7 +2106,7 @@ td, th {
   }
 
   .row > strong {
-    width: 240px;
+    width: 235px;
   }
 }
 
@@ -2117,7 +2117,11 @@ td, th {
 }
 
 @media (max-width: 250px) {
-  .copyright {
-    line-height: 1.2;
+  #footer .copyright {
+    padding: 5px 0px 2px 0px;
+  }
+
+  #email {
+    margin-bottom: 5px;
   }
 }
