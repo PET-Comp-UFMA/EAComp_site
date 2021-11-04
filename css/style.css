@@ -1747,6 +1747,10 @@ td, th {
   display: none;
 }
 
+.banner-responsivo2 {
+  display: none;
+}
+
 .banner {
   display: flex;
   flex-direction: row;
@@ -1801,10 +1805,6 @@ td, th {
 /*--------------------------------------------------------------
 # Responsive Media Queries
 --------------------------------------------------------------*/
-
-@media (max-width: 767px) {
-
-}
 
 @media (max-width: 500px) {
   .col-md-3 {
@@ -1891,6 +1891,10 @@ td, th {
     align-items: center;
   }
 
+  dl, ol, ul {
+    padding: 0px;
+  }
+
   .supporters-wrap {
     display: flex;
     flex-direction: row;
@@ -1942,15 +1946,11 @@ td, th {
     margin-right: auto;
     align-items: center;
     background-color: #fdfeff;
+    box-shadow: 4px -5px 32px 2px rgba(0,0,0,0.28);
   }
 
-  #header {
-
-    background: white;
-    height: 70px;
-    padding: 15px 0;
-    transition: all 0.5s;
-    box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+  #header{
+    display: none !important;
   }
 
   #nav-menu-container {
@@ -2021,16 +2021,32 @@ td, th {
   }
 }
 
+@media (max-width: 737px) {
+  .row > strong {
+    width: 600px;
+  }
+}
+
 @media (max-width: 634px) {
   .maps1 iframe {
     width: 280px;
     height: 230px;
+  }
+
+  .row > strong {
+    width: 500px;
   }
 }
 
 @media (max-width: 574px) {
   #venue .venue-info h3 {
     font-size: 24px;
+  }
+}
+
+@media (max-width: 500px) {
+  .row > strong {
+    width: 350px;
   }
 }
 
@@ -2044,6 +2060,41 @@ td, th {
   #subscribe button {
     margin-top: 10px;
   }
+
+  .banner-responsivo {
+    display: none;
+  }
+
+  .banner-responsivo2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    background-color: #fdfeff;
+  }
+
+  #img-centro {
+    width: 65%;
+  }
+
+  .banner-responsivo2 > div > a{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 4px -5px 32px 2px rgba(0,0,0,0.28);
+    padding: 5px 12px 5px 12px;
+  }
+}
+
+@media (max-width: 352px) {
+  .row > strong {
+    width: 260px;
+  }
 }
 
 @media (max-width: 312px) {
@@ -2053,5 +2104,25 @@ td, th {
 
   .section-header h2{
     font-size: 30px;
+  }
+
+  .row > strong {
+    width: 235px;
+  }
+}
+
+@media (max-width: 270px) {
+  .row > p {
+    width: 210px;
+  }
+}
+
+@media (max-width: 250px) {
+  #footer .copyright {
+    padding: 5px 0px 2px 0px;
+  }
+
+  #email {
+    margin-bottom: 5px;
   }
 }
