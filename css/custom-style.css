@@ -6,6 +6,18 @@
     padding-left: 70px;
     padding-right: 70px;;
 }
+.tabela-anais thead {
+    background-color: #87ceeb;
+}
+.tabela {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tabela table {
+    width: 900px;
+}
 
 /* pag competições */
 
