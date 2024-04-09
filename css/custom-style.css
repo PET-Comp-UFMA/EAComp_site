@@ -178,7 +178,7 @@ footer.fixar-rodape{
 
 .responsive-iframe-container {
     position: relative;
-    padding-bottom: 290%;  /* Adjust based on your form's height */
+    padding-bottom: 100%;  /* Adjust based on your form's height */
     height: 0;
     overflow: hidden;
 }
