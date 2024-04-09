@@ -175,3 +175,18 @@ footer.fixar-rodape{
     height: 180px;
     margin-top: auto;
 }
+
+.responsive-iframe-container {
+    position: relative;
+    padding-bottom: 290%;  /* Adjust based on your form's height */
+    height: 0;
+    overflow: hidden;
+}
+
+.responsive-iframe-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
