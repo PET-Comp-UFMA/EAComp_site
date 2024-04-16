@@ -19,7 +19,7 @@
 body {
   background: #f6f7fd;
   color: #2f3138;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
   overflow-x: hidden;
 }
 
@@ -51,7 +51,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Raleway", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
   margin: 10px 0 10px 0;
   padding: 0;
@@ -158,9 +158,7 @@ h6 {
   align-items: center;
   display:flex;
   flex-direction: column;
-  font-family: 'Kaushan Script', cursive;
-  
-  
+  font-family: "Montserrat", sans-serif;  
 }
 
 .subtituloMaior{
@@ -168,14 +166,14 @@ h6 {
   font-size: 45px;
   font-weight: 700;
   white-space: nowrap;
-  font-family: 'Kaushan Script', cursive;
+  font-family: "Montserrat", sans-serif; 
 
 }
 .subtituloMenor{
   font-size: 20px;
   font-weight: 700;
   white-space: nowrap;
-  font-family: 'Kaushan Script', cursive;
+  font-family: "Montserrat", sans-serif; 
 }
 
 
@@ -216,7 +214,7 @@ h6 {
   margin: 0;
   padding: 6px 0;
   line-height: 1;
-  font-family: "Raleway", sans-serif;
+  font-family: "Montserrat", sans-serif; 
   font-weight: 700;
   letter-spacing: 3px;
   text-transform: uppercase;
@@ -580,7 +578,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #intro h1 {
   color: #fff;
-  font-family: "Raleway", sans-serif;
+  font-family: "Montserrat", sans-serif; 
   font-size: 56px;
   font-weight: 600;
   text-transform: uppercase;
@@ -671,7 +669,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #intro .about-btn {
-  font-family: "Raleway", sans-serif;
+  font-family: "Montserrat", sans-serif; 
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 1px;
@@ -733,7 +731,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #intro-2 h1 {
   color: #fff;
-  font-family: "Raleway", sans-serif;
+  font-family: "Montserrat", sans-serif; 
   font-size: 56px;
   font-weight: 600;
   text-transform: uppercase;
@@ -824,7 +822,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #intro-2 .about-btn {
-  font-family: "Raleway", sans-serif;
+  font-family: "Montserrat", sans-serif; 
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 1px;
@@ -1295,7 +1293,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 18px 0;
   display: block;
   position: relative;
-  font-family: "Raleway", sans-serif;
+  font-family: "Montserrat", sans-serif; 
   font-size: 16px;
   line-height: 24px;
   font-weight: 600;
@@ -1618,7 +1616,7 @@ td, th {
 
 .btn-subscription-text {
   color: #fff;
-  font-family: 'Raleway';
+  font-family: "Montserrat", sans-serif; 
   font-size: 16px;
   text-decoration: none;
 }
@@ -1649,7 +1647,7 @@ td, th {
   margin: 0 0 10px 0;
   padding: 2px 0 2px 0;
   line-height: 1;
-  font-family: "Raleway", sans-serif;
+  font-family: "Montserrat", sans-serif; 
   font-weight: 700;
   color: #fff;
 }
@@ -1667,7 +1665,7 @@ td, th {
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 0;
-  font-family: "Raleway", sans-serif;
+  font-family: "Montserrat", sans-serif; 
   color: #fff;
 }
 
@@ -2139,7 +2137,7 @@ td, th {
   padding-top: 15px;
   display: flex;
   justify-content: center;
-  font-family: "Raleway", sans-serif;
+  font-family: "Montserrat", sans-serif; 
   color: #1B100A;
   font-weight: 600;
 }
