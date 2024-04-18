@@ -880,7 +880,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------------------------------------*/
 
 #about {
-  background: url("../img/banner.png"); 
+  background-color: #06498E;
   background-size:cover;
   overflow: hidden;
   position: relative;
