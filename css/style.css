@@ -895,6 +895,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #about .row{
+  padding-left: 16px;
+  padding-right: 15px;
   display: flex;
   flex-direction: row;
 }
