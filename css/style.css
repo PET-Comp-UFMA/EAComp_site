@@ -540,7 +540,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   background: url(../img/imagemPromocionalEvento.png);
   background-size: cover;
   overflow: hidden;
-  position: relative;
+  position: static;
 }
 
 #intro:before {
@@ -557,11 +557,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   position: absolute;
   bottom: 0;
   left: 0;
-  top: 90px;
+  top: 0;
   right: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  align-items: baseline;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
@@ -710,7 +711,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   position: absolute;
   bottom: 0;
   left: 0;
-  top: 90px;
+  top: 0;
   right: 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -732,7 +733,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #intro-2 h1 {
   color: #fff;
   font-family: "Montserrat", sans-serif; 
-  font-size: 56px;
+  font-size: 45px;
   font-weight: 600;
   text-transform: uppercase;
 }
@@ -887,6 +888,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #fff;
   padding: 60px 50px 40px 50px;
   min-height: auto;
+}
+
+#about .collum{
+  
 }
 
 #about .row{
@@ -1216,6 +1221,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #supporters {
   padding: 60px 0;
+  
 }
 
 #supporters .supporters-wrap {
@@ -1223,6 +1229,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   border-left: 1px solid #e0e5fa;*/
   margin-bottom: 30px;
   justify-content: center;
+  
 }
 
 #supporters .supporter-logo {
