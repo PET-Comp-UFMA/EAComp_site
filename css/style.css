@@ -540,7 +540,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   background: url(../img/imagemPromocionalEvento.png);
   background-size: cover;
   overflow: hidden;
-  position: static;
+  position: relative;
 }
 
 #intro:before {
@@ -562,7 +562,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  align-items: baseline;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
@@ -895,10 +894,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #about .row{
-  padding-left: 16px;
-  padding-right: 15px;
+  padding-left: 100px;
+  padding-right: 100px;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 
 #about:before {
