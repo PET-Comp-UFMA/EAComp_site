@@ -2135,6 +2135,7 @@ td, th {
 
   #intro{
     background-image: url(../img/imagemPromocionalMobile.png);
+    background-size: cover;
   }
 
   #intro h1 {
@@ -2146,11 +2147,23 @@ td, th {
   }
 
   #intro .about-btn {
-    font-size:14px;
+    font-size:22px;
+    width: 240px;
+    height: 50px;
+    padding: 12px 21px;
+  }
+
+  #intro-2{
+    background: url(../img/imagemSobreEventoMobile.png) center;
+    background-size: cover;
   }
 
   #intro-2 .about-btn {
-    font-size:14px;
+    align-content: center;
+    font-size:22px;
+    width: 240px;
+    height: 60px;
+    padding: 12px 21px;
   }
 
   #schedule .nav-tabs a {
