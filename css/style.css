@@ -900,8 +900,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #about .row{
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left: 1vh;
+  padding-right: 1vh;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -1973,8 +1973,8 @@ td, th {
   }
   
   #about .row {
-    padding-left: 0%;
-    padding-right: 0px;
+    padding-left: 3vh;
+    padding-right: 3vh;
     display: flex;
     flex-direction: column;
     overflow:visible;
