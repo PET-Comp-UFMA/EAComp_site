@@ -37,219 +37,102 @@
 </head>
 
 <body>
-    <div class="banner">
-        <div>   
-            <a href="index.html" class="img-logo"><img src="img/eacomp_logo.png" alt="" class="img-esq" id="img-esq"></a>
-        </div>
-        <div >
-            <div class="titulo">
-                <h1 class="subtituloMaior">IX EACOMP</h1>
-                <p class="subtituloMenor">a definir - UFMA - São Luís- MA - Brasil</p>
-            </div>
-        </div>
-        <div>
-            <a class="img-dir-1" href="https://portalpadrao.ufma.br/site" target="_blank"><img src="img/supporters/1.png" alt="" class="img-dir" id="img-dir-1"></a>
-            <a class="img-dir-2" href="https://petcompufma.org" target="_blank"><img src="img/supporters/5.png" alt="" class="img-dir" id="img-dir-2"></a>
-        </div>
-    </div>
-    <div class="banner-responsivo">
-        <div>   
-            <a href="index.html" class="img-logo"><img src="img/banner-esq.png" class="img-esq" alt="" id="img-esq"></a>
-        </div>
-        <div>
-            <a class="img-dir-1" href="https://portalpadrao.ufma.br/site" target="_blank"><img src="img/supporters/1.png" alt="" class="img-dir" id="img-dir-1"></a>
-            <a class="img-dir-2" href="https://petcompufma.org" target="_blank"><img src="img/supporters/5.png" alt="" class="img-dir" id="img-dir-2"></a>
-        </div>
-    </div>
-    <div class="banner-responsivo2">
-        <div>   
-            <a href="index.html" class="img-logo"><img src="img/banner-esq.png" alt="" id="img-centro"></a>
-        </div>
-    </div>
-    <!--==========================
-        Header
-    ============================-->
-    <header id="header">
-        <div class="container">
-            <nav id="nav-menu-container">
-                <ul class="nav-menu">
-                    <li><a href="index.html">Home</a></li>
-                    <li class="dropdown menu-active">
-                      <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Chamada</a>
-                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                            <a class="dropdown-item" href="trabalhos.html">Trabalhos</a>  
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="maratona.html">Maratona</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="gamejam.html">GAMEJAM</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="videos-depoimentos.html">Vídeo Depoimento</a>
-                        </div>
-                     </a>
-                    </li>
-                    <li><a href="programacao.html">Programação</a></li>
-                    <li><a href="inscricoes.html">Inscrições</a></li>
-                    <li class="dropdown">
-                      <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Informações</a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="tutoriais.html">Tutoriais e Webinars</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="local.html">Local</a> 
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="comissao.html">Comissão Organizadora</a>     
-                            <!--
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="documentos-oficiais.html">Documentos Oficiais</a>   
-                            -->
-                        </div>
-                     </a>
-                    </li>
-                    <!--
-                    <li class="dropdown">
-                      <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pós-evento</a>   
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="anais.html">Anais</a> 
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="certificados.html">Certificados</a>     
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="deliberacoes.html">Deliberações</a>              
-                        </div>
-                     </a>
-                    </li>
-                    -->
+    <div class="wrapper">
+        <!--==========================
+            Header
+        ============================-->
+        <header>
+            <header-component id="header-component"></header-component>
+        </header>
 
-                    <li class="dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pós-evento</a>   
-                          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                              <div class="dropdown-divider"></div>
-                              <a class="dropdown-item" href="anais.html">Anais</a> 
-                              <div class="dropdown-divider"></div>
-                          </div>
-                       </a>
-                    </li>
+        <main id="main">
 
-                    <li class="dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Versões</a>
-                          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                              <a class="dropdown-item" href="index.html">2021</a>
-                              <div class="dropdown-divider"></div>
-                              <a class="dropdown-item" href="2019/index.html">2019</a>
-                              <div class="dropdown-divider"></div>
-                              <a class="dropdown-item" href="2017/index.html">2017</a>
-                          </div>
-                       </a>
-                    </li> 
-                </ul>
-            </nav>
-            <!-- #nav-menu-container -->
+            <section id="info">
+                <div class="container px-5">
+                    <div class="section-header">
+                        <h2>CHAMADA EACOMP GAMEJAM 2021</h2>
+                    </div><p style="text-align: justify;">
+                        Uma GAMEJAM é um evento onde os participantes planejam, criam e testam um ou mais jogos dentro de um curto espaço de tempo. Assim, a GAMEJAM do EAComp 2021 será uma competição em equipe ou individual para o desenvolvimento de jogos digitais com duração de 4 (quatro) dias.
+                    </p>
+                    <p style="text-align: justify;">
+                        Quanto às especificações, a definição da engine de desenvolvimento fica a critério da equipe, também será permitido o uso de assets de terceiros, embora não seja recomendado, pois a originalidade será considerada na avaliação. Além disso, o envio não precisa ser feito apenas no último dia, você pode mandar o jogo a qualquer momento, desde que esteja pronto.</p>
 
-        </div>
-    </header>
+                    <h3>Datas Importantes</h3>
+                    <p>
+                        <strong>Anúncio do Tema</strong>: 22 de novembro de 2021<br>
+                        <strong>Envio dos Jogos</strong>: 25 de novembro de 2021 até as 18h<br>
+                        <strong>Live Testando os Jogos</strong>: 26 de novembro de 2021<br>
+                        <!--<strong>Premiação dos Ganhadores</strong>: 26 de novembro de 2021<br>-->
+                    </p>
 
-    <main id="main">
+                    <h3>Inscrições</h3>
+                    <p>
+                        Para se increver basta 
+                        <strong>
+                            <a target="_blank" href="https://forms.gle/dLKhs1Y7MMf3KEpP9">clicar aqui</a>
+                        </strong>
+                        .
+                    </p>
 
-        <section id="info">
-            <div class="container px-5">
-                <div class="section-header">
-                    <h2>CHAMADA EACOMP GAMEJAM 2021</h2>
-                </div><p style="text-align: justify;">
-                    Uma GAMEJAM é um evento onde os participantes planejam, criam e testam um ou mais jogos dentro de um curto espaço de tempo. Assim, a GAMEJAM do EAComp 2021 será uma competição em equipe ou individual para o desenvolvimento de jogos digitais com duração de 4 (quatro) dias.
-                </p>
-                <p style="text-align: justify;">
-                    Quanto às especificações, a definição da engine de desenvolvimento fica a critério da equipe, também será permitido o uso de assets de terceiros, embora não seja recomendado, pois a originalidade será considerada na avaliação. Além disso, o envio não precisa ser feito apenas no último dia, você pode mandar o jogo a qualquer momento, desde que esteja pronto.</p>
+                    <h3>Tema do Jogo</h3>
+                    <p>O tema é “PRESO EM UM LOOP”</p>
+                    <p>Exemplos de jogos com este tema:</p>
+                    <ul>
+                        <li>O jogador é um hamster que precisa sair da casa do seu dono. Qualquer erro e o dono devolve ele pra gaiola</li>
+                        <li>O jogador pode voltar no tempo modificando certas coisas no cenário.</li>
+                        <li>O jogador precisa impedir uma explosão em uma estação espacial. Cada morte e ele volta pro início</li>
+                    </ul>
 
-                <h3>Datas Importantes</h3>
-                <p>
-                    <strong>Anúncio do Tema</strong>: 22 de novembro de 2021<br>
-                    <strong>Envio dos Jogos</strong>: 25 de novembro de 2021 até as 18h<br>
-                    <strong>Live Testando os Jogos</strong>: 26 de novembro de 2021<br>
-                    <!--<strong>Premiação dos Ganhadores</strong>: 26 de novembro de 2021<br>-->
-                </p>
+                    <h3>Submissão de Jogos</h3>
+                    <p style="text-align: justify;">O jogo deverá ser submetido pelo site <a href="https://itch.io/jam/eacomp-gamejam">Itch.io</a>.</p>
+                    <p style="text-align: justify;">O jogo, sob responsabilidade de uma equipe, deverá conter necessariamente:</p>
+                    <ul>
+                        <li>Arquivo executável ou arquivo zip do jogo;</li>
+                        <li>Texto descritivo do conteúdo;</li>
+                        <li>Imagem para o post no Instagram (formato PNG, 1080x1080);</li>
+                    </ul>
+                    
+                    <h3>Critérios de Avaliação</h3>
+                    <p style="text-align: justify;">A Comissão Julgadora é formada por uma equipe contendo um professor e alguns discentes do grupo PETComp. A avaliação será baseada em quatro critérios, de igual peso:</p>
+                    <ul>
+                        <li>Criatividade e Inovação (25%): considera os aspectos de originalidade e emprego de novas tecnologias para a criação do conteúdo auto-instrucional;</li>
+                        <li>Qualidade Técnica (25%): avalia o conteúdo apresentado, sob os aspectos de apresentação, integridade e rigor;</li>
+                        <li>Qualidade Pedagógica (25%): avalia a abordagem de ensino que foi aplicada, os mecanismos de checagem de aprendizado e disponibilização de conteúdo;</li>
+                        <li>Aplicabilidade/Relevância (25%): verifica a adequação do conteúdo a esta proposta e o grau de facilidade em adotar o conteúdo elaborado em cursos presenciais ou de ensino a distância.</li>
+                    </ul>
+                    
+                    <h3>Dinâmica da Competição</h3>
+                    <p style="text-align: justify;">Os jogos deverão ser entregues até o prazo indicado acima;</p>
+                    <p style="text-align: justify;">Após o teste dos jogos por parte da comissão, teremos a avaliação e classificação dos jogos submetidos.</p>
+                    <p style="text-align: justify;">A nota final de cada proposta será obtida pela média ponderada entre a nota da comissão, utilizando-se a fórmula:</p>
+                    <p style="text-align: justify;"><strong>NOTA_FINAL = (4 * NOTA_PROFESSOR + 3 * NOTA_DISCENTE + 3 * NOTA_DISCENTE) / 10</strong></p>
 
-                <h3>Inscrições</h3>
-                <p>
-                    Para se increver basta 
-                    <strong>
-                        <a target="_blank" href="https://forms.gle/dLKhs1Y7MMf3KEpP9">clicar aqui</a>
-                    </strong>
-                    .
-                </p>
+                    <!--<h3>Premiação</h3>
+                    <p style="text-align: justify;">Os integrantes das equipes que ficarem no 1º, 2º e 3º lugares da competição serão contemplados com:</p>--><!--
+                    <p style="text-align: justify;">Assinaturas anuais da TreinaWeb (<a href="https://www.treinaweb.com.br/">https://www.treinaweb.com.br/</a> ), no valor de R$ 804,00 cada uma.</p>
+                    <p style="text-align: justify;">A TreinaWeb é uma empresa que oferece mais de 4.000 horas de cursos on-line para desenvolvedores Web Full Stack e DevOps, possuindo mais de 12 anos de experiência em EaD e mais de 200 mil alunos capacitados.</p>-->
 
-                <h3>Tema do Jogo</h3>
-                <p>O tema é “PRESO EM UM LOOP”</p>
-                <p>Exemplos de jogos com este tema:</p>
-                <ul>
-                    <li>O jogador é um hamster que precisa sair da casa do seu dono. Qualquer erro e o dono devolve ele pra gaiola</li>
-                    <li>O jogador pode voltar no tempo modificando certas coisas no cenário.</li>
-                    <li>O jogador precisa impedir uma explosão em uma estação espacial. Cada morte e ele volta pro início</li>
-                </ul>
+                    <h3>Comissão Julgadora</h3>
+                    <p>Prof. Dr. Tiago Bonini Borchartt (UFMA)</p>
+                    <p>Petiano Arthur Marinho dos Passos (UFMA)</p>
+                    <p>Petiano Alyson Estrela Silva (UFMA)</p>
 
-                <h3>Submissão de Jogos</h3>
-                <p style="text-align: justify;">O jogo deverá ser submetido pelo site <a href="https://itch.io/jam/eacomp-gamejam">Itch.io</a>.</p>
-                <p style="text-align: justify;">O jogo, sob responsabilidade de uma equipe, deverá conter necessariamente:</p>
-                <ul>
-                    <li>Arquivo executável ou arquivo zip do jogo;</li>
-                    <li>Texto descritivo do conteúdo;</li>
-                    <li>Imagem para o post no Instagram (formato PNG, 1080x1080);</li>
-                </ul>
-                
-                <h3>Critérios de Avaliação</h3>
-                <p style="text-align: justify;">A Comissão Julgadora é formada por uma equipe contendo um professor e alguns discentes do grupo PETComp. A avaliação será baseada em quatro critérios, de igual peso:</p>
-                <ul>
-                    <li>Criatividade e Inovação (25%): considera os aspectos de originalidade e emprego de novas tecnologias para a criação do conteúdo auto-instrucional;</li>
-                    <li>Qualidade Técnica (25%): avalia o conteúdo apresentado, sob os aspectos de apresentação, integridade e rigor;</li>
-                    <li>Qualidade Pedagógica (25%): avalia a abordagem de ensino que foi aplicada, os mecanismos de checagem de aprendizado e disponibilização de conteúdo;</li>
-                    <li>Aplicabilidade/Relevância (25%): verifica a adequação do conteúdo a esta proposta e o grau de facilidade em adotar o conteúdo elaborado em cursos presenciais ou de ensino a distância.</li>
-                </ul>
-                
-                <h3>Dinâmica da Competição</h3>
-                <p style="text-align: justify;">Os jogos deverão ser entregues até o prazo indicado acima;</p>
-                <p style="text-align: justify;">Após o teste dos jogos por parte da comissão, teremos a avaliação e classificação dos jogos submetidos.</p>
-                <p style="text-align: justify;">A nota final de cada proposta será obtida pela média ponderada entre a nota da comissão, utilizando-se a fórmula:</p>
-                <p style="text-align: justify;"><strong>NOTA_FINAL = (4 * NOTA_PROFESSOR + 3 * NOTA_DISCENTE + 3 * NOTA_DISCENTE) / 10</strong></p>
-
-                <!--<h3>Premiação</h3>
-                <p style="text-align: justify;">Os integrantes das equipes que ficarem no 1º, 2º e 3º lugares da competição serão contemplados com:</p>--><!--
-                <p style="text-align: justify;">Assinaturas anuais da TreinaWeb (<a href="https://www.treinaweb.com.br/">https://www.treinaweb.com.br/</a> ), no valor de R$ 804,00 cada uma.</p>
-                <p style="text-align: justify;">A TreinaWeb é uma empresa que oferece mais de 4.000 horas de cursos on-line para desenvolvedores Web Full Stack e DevOps, possuindo mais de 12 anos de experiência em EaD e mais de 200 mil alunos capacitados.</p>-->
-
-                <h3>Comissão Julgadora</h3>
-                <p>Prof. Dr. Tiago Bonini Borchartt (UFMA)</p>
-                <p>Petiano Arthur Marinho dos Passos (UFMA)</p>
-                <p>Petiano Alyson Estrela Silva (UFMA)</p>
-
-                <!--<h3>Propostas Aceitas</h3>
-                <p>Veja quais são as propostas que estão concorrendo nesta competição clicando neste link.</p>-->
-            </div>
-        </section>
-        <br>
-    </main>
-
-    <!--==========================
-        Footer
-    ============================-->
-
-    <footer id="footer" class="fixar-rodape">
-        <div class="footer-top">
-            <div class="footer-info" id="contatos">
-                <h4 >Contatos</h4>
-                <div id ="email">
-                    <strong>E-mail:</strong> eacomp.ufma@gmail.com
+                    <!--<h3>Propostas Aceitas</h3>
+                    <p>Veja quais são as propostas que estão concorrendo nesta competição clicando neste link.</p>-->
                 </div>
-                <div class="social-links">
-                    <a href="https://twitter.com/eacomp_ufma" class="twitter"><i class="fa fa-twitter"></i></a>
-                    <a href="https://www.instagram.com/eacomp_ufma/" class="instagram"><i class="fa fa-instagram"></i></a>
-                </div>  
-            </div>
-        </div>
+            </section>
+            <br>
+        </main>
 
-        <div class="copyright">
-            <strong>VIII EAComp - 2021</strong>
-        </div>
-    </footer>
-</div>
+        <!--==========================
+            Footer
+        ============================-->
+
+        <footer id="footer" class="fixar-rodape">
+            <footer-component id="footer-component"> </footer-component>
+        </footer>
+
+    </div>
   
   <!-- #footer -->
 
@@ -276,8 +159,8 @@
   <!-- Template Main Javascript File -->
   <script src="js/main.js"></script>
   
-  <!-- Instagram javascript link modifier -->
-  <script src="js/instagram.js"></script>
+  <!-- Adiciona header e footer a suas respectivas divs component na página -->
+  <script src="js/headerFooter.js"></script>
 
   
 </body>
