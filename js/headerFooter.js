@@ -1,9 +1,8 @@
 function destacarBotao(){
   let nomeArquivo = window.location.pathname.split('/').pop();
   let botao;
-  if(nomeArquivo=="index.html"){
-    botao = document.getElementById("headerHome");
-  }else if(nomeArquivo=="trabalhos.html" || nomeArquivo=="videos-depoimentos.html"){
+  
+  if(nomeArquivo=="trabalhos.html" || nomeArquivo=="videos-depoimentos.html"){
     botao = document.getElementById("headerChamada");
   }else if(nomeArquivo=="programacao.html"){
     botao = document.getElementById("headerProgramação");
@@ -11,6 +10,8 @@ function destacarBotao(){
     botao = document.getElementById("headerInscrição");
   }else if(nomeArquivo=="formularioTutorias.html" || nomeArquivo=="local.html" || nomeArquivo=="comissao.html"){
     botao = document.getElementById("HeaderInformação");
+  }else{
+    botao = document.getElementById("headerHome");
   }
 
   if(botao!=undefined){
