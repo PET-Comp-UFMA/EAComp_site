@@ -1,3 +1,68 @@
+
+// Mobile Navigation
+function navMobile(){
+  if ($('#nav-menu-container').length) {
+    var $mobile_nav = $('#nav-menu-container').clone().prop({
+      id: 'mobile-nav'
+    });
+    $mobile_nav.find('> ul').attr({
+      'class': '',
+      'id': ''
+    });
+    $('body').append($mobile_nav);
+    $('body').prepend('<button type="button" id="mobile-nav-toggle"><i class="fa fa-bars"></i></button>');
+    $('body').append('<div id="mobile-body-overly"></div>');
+    $('#mobile-nav').find('.menu-has-children').prepend('<i class="fa fa-chevron-down"></i>');
+
+    $(document).on('click', '.menu-has-children i', function(e) {
+      $(this).next().toggleClass('menu-item-active');
+      $(this).nextAll('ul').eq(0).slideToggle();
+      $(this).toggleClass("fa-chevron-up fa-chevron-down");
+    });
+
+    $(document).on('click', '#mobile-nav-toggle', function(e) {
+      $('body').toggleClass('mobile-nav-active');
+      $('#mobile-nav-toggle i').toggleClass('fa-times fa-bars');
+      $('#mobile-body-overly').toggle();
+    });
+
+    $(document).click(function(e) {
+      var container = $("#mobile-nav, #mobile-nav-toggle");
+      if (!container.is(e.target) && container.has(e.target).length === 0) {
+        if ($('body').hasClass('mobile-nav-active')) {
+          $('body').removeClass('mobile-nav-active');
+          $('#mobile-nav-toggle i').toggleClass('fa-times fa-bars');
+          $('#mobile-body-overly').fadeOut();
+        }
+      }
+    });
+  } else if ($("#mobile-nav, #mobile-nav-toggle").length) {
+    $("#mobile-nav, #mobile-nav-toggle").hide();
+  }
+}
+
+//Destaca opção no header
+function destacarBotao(){
+  let nomeArquivo = window.location.pathname.split('/').pop();
+  let botao;
+
+  if(nomeArquivo=="trabalhos.html" || nomeArquivo=="videos-depoimentos.html"){
+    botao = document.getElementById("headerChamada");
+  }else if(nomeArquivo=="programacao.html"){
+    botao = document.getElementById("headerProgramação");
+  }else if(nomeArquivo=="inscricoes.html"){
+    botao = document.getElementById("headerInscrição");
+  }else if(nomeArquivo=="formularioTutorias.html" || nomeArquivo=="local.html" || nomeArquivo=="comissao.html"){
+    botao = document.getElementById("HeaderInformação");
+  }else{
+    botao = document.getElementById("headerHome");
+  }
+
+  if(botao!=undefined){
+    botao.classList.add("menu-active");
+  }
+}
+
 jQuery(document).ready(function( $ ) {
 
   // Back to top button
@@ -46,45 +111,42 @@ jQuery(document).ready(function( $ ) {
     speed: 400
   });
 
-  // Mobile Navigation
-  if ($('#nav-menu-container').length) {
-    var $mobile_nav = $('#nav-menu-container').clone().prop({
-      id: 'mobile-nav'
-    });
-    $mobile_nav.find('> ul').attr({
-      'class': '',
-      'id': ''
-    });
-    $('body').append($mobile_nav);
-    $('body').prepend('<button type="button" id="mobile-nav-toggle"><i class="fa fa-bars"></i></button>');
-    $('body').append('<div id="mobile-body-overly"></div>');
-    $('#mobile-nav').find('.menu-has-children').prepend('<i class="fa fa-chevron-down"></i>');
+  //Inserir header
+  fetch('header.html')
+  .then(response => response.text())
+  .then(data => {
+    document.getElementById('header-component').innerHTML = data;
+    
+    destacarBotao();
+    navMobile();
+    const header = document.getElementById('nav-menu');
 
-    $(document).on('click', '.menu-has-children i', function(e) {
-      $(this).next().toggleClass('menu-item-active');
-      $(this).nextAll('ul').eq(0).slideToggle();
-      $(this).toggleClass("fa-chevron-up fa-chevron-down");
-    });
+    header.addEventListener('mouseover', function() {
+      let teste = document.getElementsByClassName('menu-active');
 
-    $(document).on('click', '#mobile-nav-toggle', function(e) {
-      $('body').toggleClass('mobile-nav-active');
-      $('#mobile-nav-toggle i').toggleClass('fa-times fa-bars');
-      $('#mobile-body-overly').toggle();
-    });
-
-    $(document).click(function(e) {
-      var container = $("#mobile-nav, #mobile-nav-toggle");
-      if (!container.is(e.target) && container.has(e.target).length === 0) {
-        if ($('body').hasClass('mobile-nav-active')) {
-          $('body').removeClass('mobile-nav-active');
-          $('#mobile-nav-toggle i').toggleClass('fa-times fa-bars');
-          $('#mobile-body-overly').fadeOut();
-        }
+      for(let i=0;i<teste.length;i++){
+        teste[i].classList.remove('menu-active')
+        console.log(teste[i]);
       }
+      
+      header.addEventListener('mouseleave', function(){
+        destacarBotao();
+        header.removeEventListener('mouseleave', function() {
+        });
+      })
+
     });
-  } else if ($("#mobile-nav, #mobile-nav-toggle").length) {
-    $("#mobile-nav, #mobile-nav-toggle").hide();
-  }
+    
+    
+  });
+
+  //Inserir footer
+  fetch('footer.html')
+    .then(response => response.text())
+    .then(data => {
+    document.getElementById('footer-component').innerHTML = data;
+  });
+  
 
   // Smooth scroll for the menu and links with .scrollto classes
   $('.nav-menu a, #mobile-nav a, .scrollto').on('click', function() {
